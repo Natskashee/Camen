@@ -1,0 +1,101 @@
+
+ .card-text{
+     display: inline-flex;
+     align-items: center;
+     width:33%;
+     padding: 25px;
+     gap: 10px;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ }
+
+ @media (max-width:800px) {
+  .card-text{
+    width: auto;
+    margin-top: 20px;
+  }
+}
+ 
+.card-text .icon-letter{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 100%;
+    font-family: 'Suite';
+}
+ 
+.video-text {
+     background-color: rgba(0, 0, 0, 0.5);
+     color: #ffffff;
+     height: 85vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+   
+.video-text p {
+     
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+   
+.comment-box p{
+  margin-top: 4px;
+}
+
+.comment-box i svg{
+  height: 12px;
+}
+
+.video-text h1 span{
+  font-family: 'Agneta';
+  font-weight: 100;
+}
+
+#banner-logo{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.cardvideo-content{
+  display: flex;
+  height: 500px;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.cardvideo-content div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+@media (max-width:800px) {
+  .cardvideo-content{
+    height: 400px;
+    width:100%;
+  }
+  .cardvideo-content div{
+    width: 50%;
+  }
+
+  .cardvideo-content video{
+    width: 50%;
+  }
+
+  .cardvideo-content div > button{
+    width: 80%;
+  }
+}

@@ -1,0 +1,34 @@
+
+.t-shirt-products{
+    display: block;
+}
+.sport-products{
+    display: none;
+}
+.costum-products{
+    display: none;
+}
+.ensembles-products{
+    display: none;
+}
+.pant-products{
+    display: none;
+}
+.linge-products{
+    display: none;
+}
+.shoe-products{
+    display: none;
+}
+
+.men-banner{
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.men-background{
+    height: 80vh;
+}

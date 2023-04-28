@@ -1,0 +1,81 @@
+.form {
+    padding: 30px;
+}
+
+form {
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"] {
+    border: 0;
+    padding: 15px;
+    width: 400px;
+    font-size: 15px;
+    border: 1px solid #000;
+    background-color: transparent;
+
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="text"]:valid,
+input[type="date"]:valid {
+    outline: 0;
+}
+
+.choice-box {
+    display: flex;
+    margin-left: 30px;
+    gap: 10px;
+
+}
+
+.confirm-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.form-button1 {
+    width: 100px;
+    background-color: gray;
+    border: 2px solid gray;
+    color: white;
+}
+
+.form-button2 {
+    width: 100px;
+}
+
+.form-button2:hover,
+.form-button2:focus{
+    background-color: white;
+    color: black;
+}
+
+.form-button1:hover,
+.form-button1:focus{
+    background-color: white;
+    color: gray;
+}
+
+textarea{
+    border: 1px solid #000;
+}
+
+.contact-banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url('../IMAGES/IMAGES SECONDAIRES/Banner6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}

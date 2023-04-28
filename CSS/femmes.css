@@ -1,0 +1,40 @@
+.women-banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url('../IMAGES/IMAGES SECONDAIRES/0411_wlp_c01a_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+@media (max-width:600px) {
+    .women-banner{
+        background-image: url('../IMAGES/FEMMES/module-1-70-sp23-b3-wsw-01-960x1050px-mobile.jpg');
+    }
+}
+.women-banner-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.t-shirt-products{
+    display: block;
+}
+.sport-products{
+    display: none;
+}
+.costum-products{
+    display: none;
+}
+.skirt-products{
+    display: none;
+}
+.dress-products{
+    display: none;
+}
+.linge-products{
+    display: none;
+}
+.shoe-products{
+    display: none;
+}
